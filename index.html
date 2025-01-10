@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+
+
+
+  <div class="container mt-5">
+    <div class="row w-25 h-100 my-4 mx-auto">
+      <div><h3>Calculator</h3></div>
+      <div class="col-12 inp" id="userinput">
+        <input class="col-12 mt-3 h-100" id="inputfield"/>
+      </div>
+      <div class="d-flex flex-row justify-content-between flex-wrap mt-3">
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('**')" >  ^</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('**2')" >  X^2</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('**(1/2)')" >^(1/2)</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('/')" >  /</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('7')" >  7</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('8')" >  8</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('9')" >  9</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('*')" >  *</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('4')" >  4</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('5')" >  5</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('6')" >  6</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('-')" >  -</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('1')" >  1</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('2')" >  2</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('3')" >  3</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('+')" >  +</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('+/-')" >  +/-</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('0')" >  0</button>
+        <button class="col-3 my-2  p-2 btn"  onclick="inputbutton('.')" >  .</button>
+        <button class="col-3 my-2  p-2 btn btn-primary"  onclick="inputbutton('=')" >  =</button>
+      </div>
+    </div>
+  </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
